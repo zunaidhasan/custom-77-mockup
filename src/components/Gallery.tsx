@@ -5,14 +5,14 @@ import Image from "next/image";
 import Lightbox, { type GalleryImage } from "./Lightbox";
 
 const baseImages: GalleryImage[] = [
-  { src: "/images/hero.jpg", alt: "Custom walnut and steel dining table in a sunlit interior", caption: "Walnut dining table — Denver residence" },
-  { src: "/images/work-1.jpg", alt: "Floating walnut shelves with black steel brackets", caption: "Floating kitchen shelves" },
-  { src: "/images/work-2.jpg", alt: "Oak and steel entry bench", caption: "Entryway bench — white oak + steel" },
-  { src: "/images/work-3.jpg", alt: "Welded steel table base in the workshop", caption: "Welded base, pre-finish" },
-  { src: "/images/work-4.jpg", alt: "Custom steel handrail with oak cap", caption: "Architectural handrail — Park Hill" },
-  { src: "/images/work-5.jpg", alt: "Live-edge walnut coffee table with steel legs", caption: "Live-edge coffee table" },
-  { src: "/images/detail-1.jpg", alt: "Close-up of a TIG weld on a steel joint", caption: "TIG weld detail" },
-  { src: "/images/detail-2.jpg", alt: "Close-up of solid walnut grain with natural oil finish", caption: "Walnut grain — oil finish" },
+  { src: "/images/hero.webp", alt: "Custom live-edge wood console with angular black steel frame in a warm interior", caption: "Live-edge console — angular steel frame" },
+  { src: "/images/work-1.webp", alt: "Handmade wood and black steel coffee table in a bright living room", caption: "Wood & steel coffee table" },
+  { src: "/images/work-2.webp", alt: "Handmade wood and steel bedside table in a warm living space", caption: "Bedside table — hardwood + steel" },
+  { src: "/images/work-3.webp", alt: "Long wood dining table with geometric white steel base", caption: "White steel dining table" },
+  { src: "/images/work-4.webp", alt: "Custom black steel handrail fitted along an outdoor walkway", caption: "Steel handrail — exterior" },
+  { src: "/images/work-5.webp", alt: "Small wood and black steel side table beside a sofa", caption: "Wood & steel side table" },
+  { src: "/images/detail-1.webp", alt: "Thick natural wood mantel above a modern fireplace", caption: "Fireplace mantel — thick hardwood" },
+  { src: "/images/detail-2.webp", alt: "Custom live-edge wood shelves with black metal brackets", caption: "Live-edge shelves — black brackets" },
 ];
 
 export default function Gallery() {

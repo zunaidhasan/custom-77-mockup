@@ -158,8 +158,8 @@ export default async function HomePage() {
               <div className="lg:col-span-6 order-1 lg:order-2">
                 <div className="img-wrap aspect-[4/5] md:aspect-[5/6] w-full bg-[var(--color-border)]">
                   <Image
-                    src="/images/hero.jpg"
-                    alt="Handcrafted walnut and steel dining table in a sunlit Denver home interior, showing the joinery between wood top and steel legs."
+                    src="/images/hero.webp"
+                    alt="Custom live-edge wood console with angular black steel frame in a warm interior."
                     fill
                     priority
                     sizes="(min-width: 1024px) 50vw, 100vw"
@@ -219,40 +219,40 @@ export default async function HomePage() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
               {[
                 {
-                  src: "/images/work-1.jpg",
-                  title: "Kitchen floating shelves",
-                  meta: "Walnut · 1.5″ thick · hidden steel brackets",
-                  alt: "Walnut floating shelves with black steel brackets in a modern kitchen.",
+                  src: "/images/work-1.webp",
+                  title: "Wood & steel coffee table",
+                  meta: "Live-edge top · black steel frame",
+                  alt: "Handmade wood and black steel coffee table in a bright living room.",
                 },
                 {
-                  src: "/images/work-2.jpg",
-                  title: "Entryway bench",
-                  meta: "White oak seat · blackened steel frame",
-                  alt: "Oak and steel entryway bench in a minimal mudroom.",
+                  src: "/images/work-2.webp",
+                  title: "Bedside table",
+                  meta: "Hardwood top · steel base",
+                  alt: "Handmade wood and steel bedside table in a warm living space.",
                 },
                 {
-                  src: "/images/work-5.jpg",
-                  title: "Live-edge coffee table",
-                  meta: "Walnut slab · steel hairpin base",
-                  alt: "Live-edge walnut coffee table with steel legs in a living room.",
+                  src: "/images/work-3.webp",
+                  title: "White steel dining table",
+                  meta: "Hardwood top · geometric steel base",
+                  alt: "Long wood dining table with geometric white steel base.",
                 },
                 {
-                  src: "/images/work-4.jpg",
-                  title: "Stair handrail",
-                  meta: "Steel rail · white oak cap · powder-coated",
-                  alt: "Custom architectural steel handrail with wood cap.",
+                  src: "/images/work-4.webp",
+                  title: "Steel handrail",
+                  meta: "Blackened steel · exterior install",
+                  alt: "Custom black steel handrail fitted along an outdoor walkway.",
                 },
                 {
-                  src: "/images/work-3.jpg",
-                  title: "Welded table bases",
-                  meta: "Hot-rolled steel · TIG-welded · wax finish",
-                  alt: "Welded steel table base on the workshop bench.",
+                  src: "/images/work-5.webp",
+                  title: "Wood & steel side table",
+                  meta: "Compact build · black steel supports",
+                  alt: "Small wood and black steel side table beside a sofa.",
                 },
                 {
-                  src: "/images/detail-1.jpg",
-                  title: "TIG weld detail",
-                  meta: "Every joint is a finished joint",
-                  alt: "Close-up TIG weld bead on a steel furniture joint.",
+                  src: "/images/detail-1.webp",
+                  title: "Fireplace mantel",
+                  meta: "Thick hardwood · natural finish",
+                  alt: "Thick natural wood mantel above a modern fireplace.",
                 },
               ].map((p, i) => (
                 <ScrollReveal key={p.title} delay={i * 60}>
@@ -415,8 +415,8 @@ export default async function HomePage() {
         <section aria-label="Workshop">
           <div className="img-wrap aspect-[16/9] md:aspect-[21/9] w-full">
             <Image
-              src="/images/workshop.jpg"
-              alt="Custom 77's Denver workshop with welding and woodworking equipment, a piece in progress on the bench."
+              src="/images/workshop.webp"
+              alt="Wood console table with sculptural black steel supports."
               fill
               sizes="100vw"
               className="object-cover"
@@ -489,8 +489,8 @@ export default async function HomePage() {
                 <div className="mt-10 grid grid-cols-2 gap-3">
                   <div className="img-wrap aspect-square">
                     <Image
-                      src="/images/detail-1.jpg"
-                      alt="TIG weld detail on a steel joint"
+                      src="/images/detail-1.webp"
+                      alt="Solid hardwood mantel with natural oil finish"
                       fill
                       sizes="(min-width: 1024px) 20vw, 50vw"
                       loading="lazy"
@@ -498,8 +498,8 @@ export default async function HomePage() {
                   </div>
                   <div className="img-wrap aspect-square">
                     <Image
-                      src="/images/detail-2.jpg"
-                      alt="Solid walnut grain with natural oil finish"
+                      src="/images/detail-2.webp"
+                      alt="Custom live-edge wood shelves with black metal brackets"
                       fill
                       sizes="(min-width: 1024px) 20vw, 50vw"
                       loading="lazy"
@@ -531,16 +531,15 @@ export default async function HomePage() {
               <ScrollReveal className="lg:col-span-5">
                 <div className="img-wrap aspect-[4/5] w-full">
                   <Image
-                    src="/images/work-6.jpg"
-                    alt="A maker's hands sanding a solid walnut table top in the Denver workshop."
+                    src="/images/work-6.webp"
+                    alt="A maker's hands working on a wood and steel table in a home."
                     fill
                     sizes="(min-width: 1024px) 40vw, 100vw"
                     loading="lazy"
                   />
                 </div>
                 <p className="mt-5 text-[0.78rem] text-[var(--color-muted)] tracking-wide">
-                  Sanding a walnut top after glue-up. Each piece goes through multiple stages of hand
-                  sanding before finish goes on.
+                  Wood and steel, in a real home. Every piece is designed around the room it lives in.
                 </p>
               </ScrollReveal>
 
