@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const navLinks = [
   { label: "Work", href: "#work" },
@@ -45,12 +46,14 @@ export default function Header() {
             className="flex items-center gap-2.5 text-[var(--color-ink)]"
             aria-label="Custom 77 home"
           >
-            <span
-              className="inline-flex h-9 w-9 items-center justify-center border border-[var(--color-border-strong)] text-[0.7rem] font-semibold tracking-[0.12em]"
-              style={{ fontStretch: "condensed" }}
-            >
-              77
-            </span>
+            <Image
+              src="/images/logo.png"
+              alt="Custom 77 logo"
+              width={36}
+              height={36}
+              className="h-9 w-9 object-contain"
+              priority
+            />
             <span className="hidden sm:flex flex-col leading-none">
               <span className="text-[0.95rem] font-semibold tracking-tight">
                 Custom 77
